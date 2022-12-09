@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+h1{
+    font-size:40px;
+    font-width:1200px;
+}
+h2{
+    font-size:32px;
+    font-width:1200px;
+
+}
+
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper
+ {
+     width: 1200px;
+     padding:50px 0;
+     margin: 0 auto;
+     background: yellow;
+ }
+ .grid{
+ background-color: aqua;
+ padding: 50px 0;
+ display: grid;
+ grid-template-columns: 400px 400px 400px;
+}
+.in-grid{
+    background-color: burlywood;
+    outline: 2px solid black;
+    
+ }
+ .in_grid{
+    background-color: burlywood;
+    outline: 2px solid black;
+
+}
+.in_grid1{
+    background-color: burlywood;
+    outline: 2px solid black;
+}
+.grid1{
+    background-color: aqua;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 800px 400px;
+}
+.in_grid1 p{
+
+    outline: 2px solid black;
+}
+.in_grid p{
+ 
+    outline: 2px solid black;
+}
+.grid2{
+    background-color: aqua;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns:600px 600px
+}
+    .g1{
+        background-color: burlywood;
+        outline: 2px solid black;}
+        .g1 p{
+            outline: 2px solid black;
+
+        }
+        .solid-f{
+            display: grid;
+            grid-template-columns: 300px 300px;
+
+        }
+        .fw300{
+            outline: 2px solid black;
+
+        }
+         .g2{
+        background-color: burlywood;
+        outline: 2px solid black;}
+
+        .grid3{
+            background-color: aqua;
+            padding: 50px 0;
+            display: grid;
+            grid-template-columns:800px 600px;
+    }
+    .lastfl1{
+        width: 800px;
+      background-color: burlywood;
+        outline: 2px solid black;
+      }
+      .lastfl2{
+        width: 400px;
+      background-color: burlywood;
+      outline: 2px solid black;
+    }
+    .f2{
+        outline: 2px solid black;
+    }
+    .f3{
+     display: grid;
+     grid-template-columns:400px 400px;
+        outline: 2px solid black;
+    }
+    .f12{
+        outline: 2px solid black;
+        
+    }
+    .f13{
+            outline: 2px solid black;
+        }
+        .f12 p{
+            outline: 2px solid black;
+        }
+

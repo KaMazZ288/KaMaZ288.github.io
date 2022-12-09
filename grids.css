@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: grid;
+}
+body {
+    line-height: 1;
+}
+h1{
+    font-size:40px;
+    font-width:1200px;
+}
+h2{
+    font-size:32px;
+    font-width:1200px;
+
+}
+
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper{
+     width: 1200px;
+     padding:50px 0;
+     margin: 0 auto;
+     background: yellow;
+    }
+     .grids {
+    
+    
+        background-color: aqua;
+        padding: 50px 0;
+        display: grid;
+  
+    grid-template-areas:
+      "A A B B C"
+      "B1 B1 B1 B1 C1"
+      "B1 B1 B1 B1 I"
+      "D D D D I"
+      "D D D D F"
+      "G G G H H"
+      "L R R H H"
+      "M M M M O"
+      "W W X X O"
+      "K K X X P";
+      
+     
+  }
+  
+  .item1 {
+    grid-area: A;
+  outline: 2px solid black;
+  }
+  
+  .item2 {
+    grid-area: B;
+    outline: 2px solid black;
+  }
+  
+  .item3 {
+    grid-area: C;
+    outline: 2px solid black;
+  }
+  
+  .item4 {
+    grid-area: B1;
+    outline: 2px solid black;
+  }
+  .item5 {
+    grid-area: C1;
+    outline: 2px solid black;
+  }
+  
+  .item6 {
+    grid-area: D;
+    outline: 2px solid black;
+  }
+  
+  .item7 {
+    grid-area: F;
+    outline: 2px solid black;
+  }
+  
+  .item8 {
+    grid-area: G;
+    outline: 2px solid black;
+  }
+  .item9 {
+    grid-area: H;
+    outline: 2px solid black;
+  }
+
+  .item10{
+    grid-area: L;
+    outline: 2px solid black;
+  }
+  
+  .item11 {
+    grid-area: R;
+    outline: 2px solid black;
+  }
+  
+  .item12
+   {
+    grid-area: M;
+    outline: 2px solid black;
+  }
+  .item13 {
+    grid-area: O;
+    outline: 2px solid black;
+  }
+  
+  .item14{
+    grid-area: W;
+    outline: 2px solid black;
+}
+
+  
+  .item15 {
+    grid-area: X;
+      outline: 2px solid black;
+  }
+  
+  .item16 {
+    grid-area: K;
+    outline: 2px solid black;
+  }
+  .item { 
+    outline: 2px solid black;
+  }
+ 
